@@ -8,10 +8,10 @@ for (i=1-(n>>1);i<=n;i++)
 if (i>=0) 
 { 
 for (j=0;j<i;j++) printf("  "); 
-for (j=1;j<=2*(n-i)+1;j++) printf("°®"); 
+for (j=1;j<=2*(n-i)+1;j++) printf("çˆ±"); 
 
 if(i==0){
-printf("¡·¡·¡·¡·¡·¡·¡·¡·¡·¡·¡·¡·¡·¡·¡·¡·¡·");printf(str);}
+printf("ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹ã€‹");printf(str);}
 
 printf("\n"); 
 } 
@@ -19,9 +19,9 @@ printf("\n");
 else 
 { 
 for (j=i;j<0;j++) printf("  "); 
-for (j=1;j<=n+2*i+1;j++) printf("°®"); 
+for (j=1;j<=n+2*i+1;j++) printf("çˆ±"); 
 for (j=1;j<=-1-2*i;j++) printf("  ");  
-for (j=1;j<=n+2*i+1;j++) printf("°®"); 
+for (j=1;j<=n+2*i+1;j++) printf("çˆ±"); 
 
 printf("\n"); 
 }
@@ -37,12 +37,12 @@ int strcmp (const char *str1,const char *str2)
 } 
 int main() 
 { 
-printf("ÇëÊäÈëÄãµÄÃû×Ö£º"); 
+printf("è¯·è¾“å…¥ä½ çš„åå­—ï¼š"); 
 int n=10; 
 char s[2];
 gets(str);
-if(strcmp(str,"ÕÅÊ«ÔÃ")!=0)
-{printf("ÄãÊäÈë²»¶ÔÅ¶£¡");gets(s);
+if(strcmp(str,"zsy")!=0)
+{printf("ä½ è¾“å…¥ä¸å¯¹å“¦ï¼");gets(s);
 return (0);
 }
 draw(n,str);
